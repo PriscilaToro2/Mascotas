@@ -1,0 +1,145 @@
+body {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #034001;
+}
+
+header {
+  background-color: #A63856;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo img {
+  width: 100px; /* Tamaño del logo principal */
+}
+
+.logo-center {
+  flex: 1;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.logo-center img {
+  width: 450px; /* Tamaño del logo del centro */
+  margin-top: 10px; /* Ajustar margen superior */
+  margin-right: -80px; /* Ajustar margen derecho */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.section {
+  padding: 4rem 0;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section h2 {
+  font-size: 2rem;
+  color: #D9A0BB;
+  margin-bottom: 1rem;
+}
+
+.info img {
+  max-width: 50%;
+  border: 0px solid #D971AA;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.info p {
+  font-size: 1.2rem;
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: justify; 
+  padding: 0 1rem; 
+}
+
+.banner-section {
+  text-align: center;
+  margin: 0; 
+  padding: 0; 
+}
+
+.banner-image img {
+  max-width: 100%;
+}
+
+.pet-cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem 0;
+}
+
+.pet-card {
+  background-color: #29A649;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+.pet-card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.pet-card h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+
+
+footer {
+  background-color: #034001;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.call-to-action {
+  background-color: #A63856;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.call-to-action:hover {
+  background-color: #D9A0BB;
+}
+
+.social-media {
+  margin-top: 1rem;
+}
+
+.social-icon {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+.social-icon:hover {
+  color: #D9A0BB;
+}
